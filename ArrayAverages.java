@@ -42,13 +42,14 @@ public class ArrayAverages{
     for(int col = 0; col < ray[0].length; col++)
     {
       rowNum = 0;
-
-      for(int row = 0; row < ray.length; row++)
+      
+      for(int row = 0; row < ray[col].length; row++)
       {
         rowNum+=col;
+        //colSum += 1;
       }
-      colSum += 1;
-      colAvg = rowNum;
+      colSum = rowNum;
+      colAvg = colSum;
       System.out.println("The average of column " + col + " is: " + colAvg);
     }
   }
