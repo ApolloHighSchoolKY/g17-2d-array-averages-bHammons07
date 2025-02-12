@@ -74,7 +74,7 @@ public class ArrayAverages{
       }
       arrayAvg = total/cnt;
     }
-    System.out.println("The average of the array is: " + arrayAvg);
+    System.out.println("The average of this array is: " + arrayAvg);
   }
 
   public String toString(){
